@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.ejercicionavigationdrawer.fragmentos.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/ASIRFragment"
+        android:name="com.example.ejercicionavigationdrawer.fragmentos.ASIRFragment"
+        android:label="fragment_a_s_i_r"
+        tools:layout="@layout/fragment_a_s_i_r" />
+    <fragment
+        android:id="@+id/DAMFragment"
+        android:name="com.example.ejercicionavigationdrawer.fragmentos.DAMFragment"
+        android:label="fragment_d_a_m"
+        tools:layout="@layout/fragment_d_a_m" />
+    <fragment
+        android:id="@+id/DAWFragment"
+        android:name="com.example.ejercicionavigationdrawer.fragmentos.DAWFragment"
+        android:label="fragment_d_a_w"
+        tools:layout="@layout/fragment_d_a_w" />
+    <fragment
+        android:id="@+id/acercaFragment"
+        android:name="com.example.ejercicionavigationdrawer.fragmentos.AcercaFragment"
+        android:label="fragment_acerca"
+        tools:layout="@layout/fragment_acerca" />
+</navigation>
