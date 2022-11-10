@@ -10,11 +10,7 @@ import android.view.ViewGroup;
 
 import com.example.ejercicionavigationdrawer.R;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link ASIRFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
+
 public class ASIRFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
@@ -61,6 +57,6 @@ public class ASIRFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_a_s_i_r, container, false);
+        return inflater.inflate(R.layout.fragment_asir, container, false);
     }
 }

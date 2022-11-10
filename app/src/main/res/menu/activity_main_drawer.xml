@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
@@ -20,9 +21,15 @@
             android:id="@+id/DAMFragment"
             android:icon="@drawable/dam_icon"
             android:title="@string/menu_dam" />
-        <item
-            android:id="@+id/acercaFragment"
-            android:icon="@drawable/users_icon"
-            android:title="@string/menu_acerca_de" />
+
     </group>
+
+    <item android:title="Acerca de">
+        <menu>
+            <item
+                android:id="@+id/acercaFragment"
+                android:icon="@drawable/users_icon"
+                android:title="@string/menu_acerca_de" />
+        </menu>
+    </item>
 </menu>

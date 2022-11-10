@@ -16,6 +16,10 @@
     <string name="txt_ciclos">Ciclos Formativos Grado Superior</string>
     <string name="txt_informatica">Informática</string>
 
+    <string name="txt_asir">CFGS ASIR</string>
+    <string name="txt_daw">CFGS DAW</string>
+    <string name="txt_dam">CFGS DAM</string>
+
     <string name="texto_asir">
         "Qué es ASIR\n\n"
 
@@ -98,4 +102,5 @@
     </string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txt_autor">Autor: Montse Garrido</string>
 </resources>
